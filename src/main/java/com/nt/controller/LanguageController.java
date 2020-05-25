@@ -16,12 +16,12 @@ public class LanguageController {
 	
 	@RequestMapping("/welcome.htm")
 	public String showHome() {
-                                          System.out.println("Inside showHome()");
+                     System.out.println("Inside showHome()");
 		return "home";
 	}
 	@RequestMapping("/lang.htm")
 	public String getLang(Map<String,Object> map)  {
-                                          System.out.println("Inside getLang(-)");
+                    System.out.println("Inside getLang(-)");
 		List<String> langList=null;
 		//use service
 		langList=service.fetchAllLang();
