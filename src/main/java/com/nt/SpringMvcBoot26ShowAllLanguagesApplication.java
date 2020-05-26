@@ -8,6 +8,8 @@ public class SpringMvcBoot26ShowAllLanguagesApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringMvcBoot26ShowAllLanguagesApplication.class, args);
+                                           int i=22;
+                                           int j=24;
 	}
 
 }
