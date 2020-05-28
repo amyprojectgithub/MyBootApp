@@ -10,6 +10,7 @@ public class ShowLanguagesServiceImpl implements ShowLanguagesService {
 
 	@Override
 	public List<String> fetchAllLang() {
+System.out.println("Inside fetchAllLang");
 		Locale locales[]=null;
 		List<String> langList=null;
 		//get all available locales
